@@ -1,4 +1,31 @@
-
+// Description
+// Mỗi nút của cây có trường id (số nguyên duy nhất, không trùng lặp)
+// Thực hiện 1 chuỗi các hành động sau đây bao gồm các thao tác liên quan đến xây dựng cây và duyệt cây:
+// MakeRoot u: Tạo ra nút gốc u của cây
+// Insert u v: tạo mới 1 nút u và chèn vào cuối danh sách nút con của nút v
+// PreOrder: in ra thứ tự các nút trong phép duyệt cây theo thứ tự trước
+// InOrder: in ra thứ tự các nút trong phép duyệt cây theo thứ tự giữa
+// PostOrder: in ra thứ tự các nút trong phép duyệt cây theo thứ tự sau
+// Dữ liệu: bao gồm các dòng, mỗi dòng là 1 trong số các hành động được mô tả ở trên, dòng cuối dùng là * (đánh dấu sự kết thúc của dữ liệu).
+// Kết quả: ghi ra trên mỗi dòng, thứ tự các nút được thăm trong phép duyệt theo thứ tự trước, giữa, sau của các hành động $PreOrder, $InOrder, $PostOrder tương ứng đọc được từ dữ liệu đầu vào
+// Ví dụ
+// Dữ liệu
+// MakeRoot 10
+// Insert 11 10
+// Insert 1 10
+// Insert 3 10
+// InOrder
+// Insert 5 11
+// Insert 4 11
+// Insert 8 3
+// PreOrder
+// Insert 2 3
+// Insert 7 3
+// Insert 6 4
+// Insert 9 4
+// InOrder
+// PostOrder
+// *
 
 #include <stdio.h>
 #include <stdlib.h>
