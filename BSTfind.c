@@ -1,3 +1,37 @@
+/*
+Description
+Cho một cây nhị phân có khóa là kiểu số nguyên
+Giả thiết tất cả các nút trong cây có khóa khác nhau.
+Cài đặt các thao tác sau:
+insert k: chèn một nút mới có khóa k vào cây, nếu trong cây đã có nút có khóa k thì không thêm vào
+preorder: in (trên một dòng mới) thứ tự các khóa của cây khi thăm theo kiểu Pre-Order traversal (mỗi phần tử cách nhau bởi một kí tự trắng)
+find k: tìm nút có khóa k trong cây. Nếu không tìm thấy thì In ra màn hình: Not found. Nếu tìm thấy in ra màn hình khóa k. Sau khi in xuống dòng.
+Input
+Mỗi dòng chứa một trong các câu lệnh trên
+Việc nhập liệu kết thúc bằng một dòng chứa kí tự #
+Output
+Ghi ra màn hình kết quả của các câu lệnh preorder hoặc find
+Example
+Input
+insert 5
+insert 9
+insert 2
+insert 1
+find 3
+#
+Output
+Not found
+Example
+Input
+insert 5
+insert 9
+insert 2
+insert 1
+find 2
+#
+Output
+2
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
